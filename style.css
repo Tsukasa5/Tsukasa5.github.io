@@ -29,32 +29,42 @@ header {
 }
 #button0{
   position: absolute;
-  top: 220px;
-  left: 370px;
+  width: 300px;
+  height: 110px;
+  top: 170px;
+  left: 250px;
   z-index: 3;
 }
 #button1{
   position: absolute;
-  top: 5px;
-  left: 390px;
+  width: 30px;
+  height: 30px;
+  top: 2px;
+  left: 385px;
   z-index: 2;
 }
 #button2{
   position: absolute;
-  top: 220px;
-  left: 620px;
+  width: 30px;
+  height: 30px;
+  top: 210px;
+  left: 610px;
   z-index: 2;
 }
 #button3{
   position: absolute;
-  top: 420px;
-  left: 390px;
+  width: 30px;
+  height: 30px;
+  top: 415px;
+  left: 385px;
   z-index: 2;
 }
 #button4{
   position: absolute;
-  top: 220px;
-  left: 140px;
+  width: 30px;
+  height: 30px;
+  top: 210px;
+  left: 150px;
   z-index: 2;
 }
 .side {
