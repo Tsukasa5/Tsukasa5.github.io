@@ -17,22 +17,19 @@
   <body>
     <div class="wrapper">
  
-      <header>視力検査</header>
+      <header><center>視力検査</center></header>
      
       <div class="container">
         <div class="main">
-          <input id="button0" type="button" value="スタート" onclick="randomIndication()">
-          <input id="button1" type="button" value="↑" onclick="randomIndication(); reSize()">
-          <input id="button2" type="button" value="→" onclick="randomIndication(); reSize()">
-          <input id="button3" type="button" value="↓" onclick="randomIndication(); reSize()">
-          <input id="button4" type="button" value="←" onclick="randomIndication(); reSize()">
+          <input type="button" id="button0" value="スタート" onclick="randomIndication()">
+          <input type="button" id="button1" value="↑" onclick="randomIndication(); reSize()">
+          <input type="button" id="button2" value="→" onclick="randomIndication(); reSize()">
+          <input type="button" id="button3" value="↓" onclick="randomIndication(); reSize()">
+          <input type="button" id="button4" value="←" onclick="randomIndication(); reSize()">
           <img id="imageArea"></div>
         <div class="side">
-          <p>左目　　　点</p>
-          <br>
-          <p>右目　　　点</p>
-          <br>
-          <p>合計　　　　　点</p></div>
+          <p>診断結果</p>
+        </div>
         </div>
       </div>
     </div>
