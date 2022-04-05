@@ -27,13 +27,13 @@ function randomIndication(){
       console.log("elseimage:" + image);
       console.log("elsepushID:" + pushId);
         // if (point < 15){
-        //   let comment = "視力が相当低下しているから、メガネを買いに行こう！";
+        //   let comment = "ああああ";
         // } else if (point < 25){
-        //   let comment = "";
+        //   let comment = "いいいい";
         // } else if (point < 35){
-        //   let comment = "";
+        //   let comment = "うううう";
         // } else {
-        //   let comment = "";
+        //   let comment = "ええええ";
         // }
       // const commentText = document.getElementsByClassName("side")[0];
       // commentText.innerText = comment;
