@@ -14,13 +14,14 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   
+  <body onload="DefaultSave()"></body>
   <body>
     <div class="wrapper">
- 
+      
       <header><center>視力検査
         <font size="3">～衰えを感じたらPC作業をやめよう！～</font>
       </center></header>
-     
+      
       <div class="container">
         <div class="main">
           <input type="button" id="button0" value="スタート" onclick="randomIndication()">
@@ -28,9 +29,12 @@
           <input type="button" id="button2" value="→" onclick="randomIndication(); reSize()">
           <input type="button" id="button3" value="↓" onclick="randomIndication(); reSize()">
           <input type="button" id="button4" value="←" onclick="randomIndication(); reSize()">
+          <!-- <input type="button" value="元に戻す" onclick="HTMLRestore()"> -->
           <img id="imageArea"></div>
         <div class="side">
           <p>診断結果</p>
+          <br>
+          <p></p>
         </div>
         </div>
       </div>
