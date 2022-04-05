@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!-- inside index.html -->
+    <!-- the order of imports is important -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="modules/lodash.min.js"></script>
+    <script type="text/javascript" src="modules/test-boilerplate.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  
+  <body>
+    <div class="wrapper">
+ 
+      <header>視力検査</header>
+     
+      <div class="container">
+        <div class="main">
+          <input id="button0" type="button" value="スタート" onclick="randomIndication()">
+          <input id="button1" type="button" value="↑" onclick="randomIndication(); reSize()">
+          <input id="button2" type="button" value="→" onclick="randomIndication(); reSize()">
+          <input id="button3" type="button" value="↓" onclick="randomIndication(); reSize()">
+          <input id="button4" type="button" value="←" onclick="randomIndication(); reSize()">
+          <img id="imageArea"></div>
+        <div class="side">
+          <p>左目　　　点</p>
+          <br>
+          <p>右目　　　点</p>
+          <br>
+          <p>合計　　　　　点</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
